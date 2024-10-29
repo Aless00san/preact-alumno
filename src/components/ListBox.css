@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  max-height: fit-content;
+  width: 60%;
+}
+
+.removeButton {
+
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor */
+  padding: 10px; /* Some padding */
+  transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+.removeButton:hover {
+    background-color: red;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Adjust the duration and easing as needed */
+  }
+  
+  .student-item {
+    transition: opacity 0.5s ease; /* Make sure the transition applies to all items */
+  }
